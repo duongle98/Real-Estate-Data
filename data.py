@@ -47,7 +47,7 @@ for i in l:
     res = find_data(s)
     nha.append(res)
 
-with open('batdongsan.json', 'w') as file:
+with open('RealEstate.json', 'w') as file:
     json.dump(nha, file)
 
 print("Done")
