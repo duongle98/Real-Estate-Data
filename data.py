@@ -34,7 +34,7 @@ def find_data(soup):
 
 l = []
 i = 1
-while i < 500:
+while i < 5000:
     r = requests.get(link+t+str(i))
     soup = BeautifulSoup(r.text, 'html.parser')
     l.extend(find_link(soup, link))
